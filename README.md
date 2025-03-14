@@ -2,4 +2,4 @@
 
 "executar_random-RAMIRO.py" e "random_search-RAMIRO.py" são utilizados para calcular os melhores hiperparâmetros para os datasets das features da AME.
 
-"treino_dt_ame" é utilizado para treinar cada árvore de decisão refente a um dos tamanhos de bloco suportado pela AME.
+"treino_dt_ame" é utilizado para treinar cada árvore de decisão referente a um dos tamanhos de bloco suportado pela AME.
