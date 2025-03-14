@@ -202,10 +202,6 @@ print("Precision:",metrics.precision_score(y_t, val_predictions))
 print("Recall:",metrics.recall_score(y_t, val_predictions))
 print("F1:",metrics.f1_score(y_t, val_predictions))
 
-feat_importances = pd.DataFrame(model_decison_tree_class.feature_importances_, index = X_treino.columns, columns = ["Importance"])
-feat_importances.sort_values(by = 'Importance', ascending = False, inplace = True)
-feat_importances.plot(kind='bar', figsize=(12,6))
-
 """## TREINAMENTO DA ÁRVORE DE DECISÃO"""
 
 def apply_Decision_Tree(_X_train, _y_train, _nome_arq, _save_path):
